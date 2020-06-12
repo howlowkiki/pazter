@@ -1,0 +1,93 @@
+/*  styles for the unit rater
+--------------------------------------------------------- 
+ryan masuga, masugadesign.com
+ryan@masugadesign.com 
+Licensed under a Creative Commons Attribution 3.0 License.
+http://creativecommons.org/licenses/by/3.0/
+See readme.txt for full credit details.
+--------------------------------------------------------- */
+#ratingblock
+ {
+	display:block;
+	}
+
+#ratingblock .loading {
+	height: 30px;
+	background: url('../images/working.gif') 50% 50% no-repeat;
+	}
+	
+#ratingblock .unit-rating { /* the UL */
+	margin: 0px;
+	padding:0px;
+	height: 30px;
+	position: relative;
+	background: url('../images/starrating.png') top left repeat-x;
+	}
+#ratingblock  p {
+	padding-left: 4px;
+	}
+#ratingblock .unit-rating li{
+	text-indent: -90000px;
+	margin:0px;
+	/*\*/
+	float: left;
+	width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding-left: -3px;
+	}
+	
+#ratingblock .unit-rating li a {
+	outline: none;
+	display:block;
+	width:20px;
+	height: 30px;
+	text-decoration: none;
+	text-indent: -9000px;
+	z-index: 20;
+	position: absolute;
+	padding: 0px;
+	margin: 0px;
+	}
+	
+#ratingblock .unit-rating li a:hover{
+	background: url('../images/starrating.png') left center;
+	z-index: 2;
+	left: 0px;
+	}
+
+#ratingblock .unit-rating a.r1-unit{left: 0px;}
+#ratingblock .unit-rating a.r1-unit:hover{width:20px;}
+#ratingblock .unit-rating a.r2-unit{left:20px;}
+#ratingblock .unit-rating a.r2-unit:hover{width: 40px;}
+#ratingblock .unit-rating a.r3-unit{left: 40px;}
+#ratingblock .unit-rating a.r3-unit:hover{width: 60px;}
+#ratingblock .unit-rating a.r4-unit{left: 60px;}
+#ratingblock .unit-rating a.r4-unit:hover{width: 80px;}
+#ratingblock .unit-rating a.r5-unit{left: 80px;}
+#ratingblock .unit-rating a.r5-unit:hover{width: 100px;}
+#ratingblock .unit-rating a.r6-unit{left: 100px;}
+#ratingblock .unit-rating a.r6-unit:hover{width: 120px;}
+#ratingblock .unit-rating a.r7-unit{left: 120px;}
+#ratingblock .unit-rating a.r7-unit:hover{width: 140px;}
+#ratingblock .unit-rating a.r8-unit{left: 140px;}
+#ratingblock .unit-rating a.r8-unit:hover{width: 160px;}
+#ratingblock .unit-rating a.r9-unit{left: 160px;}
+#ratingblock .unit-rating a.r9-unit:hover{width: 180px;}
+#ratingblock .unit-rating a.r10-unit{left: 180px;}
+#ratingblock .unit-rating a.r10-unit:hover{width: 200px;}
+
+#ratingblock .unit-rating li.current-rating {
+	background: url('../images/starrating.png') left bottom;
+	position: absolute;
+	height: 30px;
+	display: block;
+	text-indent: -9000px;
+	z-index: 1;
+	}
+
+#ratingblock .voted {color:#999;}
+#ratingblock .thanks {color:#36AA3D;}
+#ratingblock .static {color:#5D3126;}

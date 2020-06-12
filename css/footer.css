@@ -1,0 +1,113 @@
+#wrap_footer {
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #c2c2c2;
+	background-attachment: scroll;
+	background-color: #000000;
+	background-image: url(../images/bg_footer.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	min-height: 200px;
+	overflow: auto;
+}
+#wrap_footer .footer{
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#wrap_footer .footer_cate_wrap{
+	width: 300px;
+	float: left;
+	overflow: auto;
+	position: relative;
+	margin: 16px 20px 10px 0;
+}
+#wrap_footer .footer_cate_wrap h3{
+	font-weight: normal;
+	color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333333;
+	padding: 6px;
+	font-size: 1.1em;
+	margin-top: 10px;
+}
+#wrap_footer .footer_cate_wrap li{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333333;
+	list-style-type: none;
+}
+#wrap_footer .footer_cate_wrap li a{
+	color: #666666;
+	text-decoration: none;
+	display: block;
+	padding: 5px 10px;
+	background-attachment: scroll;
+	background-image: url(../images/item_icon.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+#wrap_footer .footer_cate_wrap li a:hover{
+	color: #999999;
+	background-color: #333333;
+}
+
+#wrap_footer  .allrights {
+	font-size: 1em;
+	color: #666666;
+	position: relative;
+	text-align: center;
+	clear: both;
+	margin-bottom: 20px;
+	height: 16px;
+	padding-top: 10px;
+}
+#footer_tag{
+	padding: 10px 0 0 0;
+	position: relative;
+}
+
+#footer_tag .search_text{
+	width: 180px;
+	height: 12px;
+	padding: 4px;
+	border: 1px solid #666666;
+	background-color: #333333;
+	color: #FFFFFF;
+	margin-right: 10px;
+}
+#footer_tag .search_text:hover{
+	background-color: #666666;
+}
+#footer_tag .search_button{
+	width: 60px;
+	height: 25px;
+	background-image: url(../images/footer_tag_search.png);
+	color: #CCCCCC;
+	border: 0;
+	font-weight: bold;
+	position: absolute;
+	margin-top: 2px;
+	top: 7px;
+	background-color: #000000;
+}
+#footer_tag_color {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	width: 180px;
+	background-color: #333333;
+	position: relative;
+	height: 30px;
+	padding: 6px 3px 6px 6px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+#footer_tag_color  a {
+	float: left;
+	position: relative;
+	width: 16px;
+	height: 30px;
+
+}

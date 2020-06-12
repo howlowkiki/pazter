@@ -1,0 +1,132 @@
+#help_type_wrap {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+	overflow: auto;
+	padding-bottom: 15px;
+	position: relative;
+}
+#help_type_left {
+	width: 295px;
+	float: left;
+	position: relative;
+	padding: 0 10px;
+}
+#help_type_right {
+	width: 295px;
+	float: right;
+	position: relative;
+	padding: 0 10px;
+}
+#about_content   #help_type_wrap     h3 {
+	color: #666666;
+	font-size: 1.2em;
+
+}
+#about_content #help_type_wrap  li a{
+	color: #0f7bff;
+	text-decoration: none;
+
+}
+#ans_wrap {
+	/* firefox only*/
+	-moz-border-radius: 6px;
+	/* chrome and safari */
+	-webkit-border-radius: 6px;
+	width: 625px;
+	margin-top: 15px;
+	padding: 15px;
+	background-color: #f7f7f7;
+}
+#ans_wrap      h2    {
+	font-size: 1.4em;
+	font-weight: normal;
+	color: #333333;
+	margin-top: 16px;
+}
+#about_content       #ans_wrap h3    {
+	font-size: 1.2em;
+	margin-left: 15px;
+}
+#about_content #ans_wrap ul {
+	margin-left: 15px;
+}
+#contact_sub_title {
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #CCCCCC;
+	margin-top: 10px;
+	padding-top: 6px;
+}
+#contact_type_left {
+	width: 327px;
+	float: left;
+	position: relative;
+	padding: 6px 0;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #CCCCCC;
+}
+#contact_type_right {
+	width: 302px;
+	float: right;
+	position: relative;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	padding-left: 15px;
+}#contact_memo {
+	font-style: italic;
+	margin-top: 6px;
+}
+#contact_p {
+	width: 300px;
+	position: relative;
+	clear: both;
+	padding-top: 15px;
+}
+.contact_text_field {
+	border: 1px solid #CCCCCC;
+	width: 295px;
+	padding: 3px;
+	margin-bottom: 6px;
+	margin-top: 4px;
+}
+.contact_text_field:hover {
+	background-color: #eeeeee;
+}
+.contact_text_area {
+	border: 1px solid #CCCCCC;
+	width: 650px;
+	padding: 3px;
+	height: 100px;
+}
+.contact_text_area:hover {
+	background-color: #eeeeee;
+}
+.contact_text_check {
+	border: 1px solid #CCCCCC;
+	width: 100px;
+	padding: 3px;
+	float: left;
+	height: 30px;
+}
+.contact_text_check:hover {
+	background-color: #eeeeee;
+}
+#contact_dot_line {
+	margin-top: 16px;
+	width: 655px;
+	height: 10px;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #CCCCCC;
+}
+
+#contact_submit_img {
+	background-image: url(../images/button_submit.png);
+	background-repeat: no-repeat;
+	width: 113px;
+	height: 43px;
+	float: right;
+	position: static;
+}

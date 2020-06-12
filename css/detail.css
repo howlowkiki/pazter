@@ -1,0 +1,265 @@
+.pd_img{
+	display:inline-block;
+	min-height:140px;
+	min-width:140px;
+	background-image: url(../images/loading_mini.gif);
+	background-repeat: no-repeat;
+	background-position: 76px 74px;
+}
+#right_bar {
+	float: right;
+	width: 250px;
+	width: 250px;
+	margin: 0 20px 30px 0 \9;
+}
+h1#detail_title {
+	position: relative;
+	font-size: 1.3em;
+	color: #333333;
+	width: 670px;
+	font-weight: bold;
+	margin: 3px 0 0 10px;
+
+}
+#detail_sub_title {
+	position: relative;
+	font-size: 1.1em;
+	color: #999999;
+	margin: 4px 0 0 10px;
+	width: 300px;
+}
+
+#detail_img {
+	padding: 10px;
+	background-color: #FFFFFF;
+	margin: 10px 10px 10px 8px;
+	border: 1px solid #CCCCCC;
+	float: left;
+}
+.detail_item {
+	width: 250px;
+	float: right;
+	margin: 10px 10px 0 0;
+	overflow: auto;
+}
+.detail_item    test {
+	color: #666666;
+	font-size: 1.1em;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	text-decoration: none;
+	float: left;
+	padding: 6px 0 6px 0;
+	cursor: default;
+	width: 250px;
+}
+.detail_item       .p_item:hover   {
+	background-color: #eeeeee;
+}
+.detail_item  .p_item {
+	color: #666666;
+	font-size: 1.1em;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	text-decoration: none;
+	float: left;
+	padding: 6px 0 6px 0;
+	width: 250px;
+}
+span.sold_num{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #d93d86;
+}
+.p_item a.require{
+	color: #0f7bff;
+	text-decoration: none;
+}
+span.sold_count{
+	font-size: 1.2em;
+	color: #d93d86;
+	font-weight: bold;
+}
+.feature_ul{
+	margin-top: 10px;
+	color: #333333;
+	font-size: 1.1em;
+}
+.feature_ul li{
+	margin-top: 6px;
+	list-style-type: disc;
+	margin-left: 16px;
+}
+#rating  {
+	float: right;
+	width: 250px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+
+}
+#rating a {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+
+}
+.detail_tag {
+	width: 250px;
+	margin: 10px 10px;
+	float: right;
+	clear: both;
+}
+.detail_tag a {
+	padding: 4px;
+
+}
+.detail_tag p {
+	color: #666666;
+	font-size: 1.1em;
+	margin-bottom: 4px;
+
+}
+#detail_memo {
+	width: 700px;
+	margin-left: 10px;
+	position: relative;
+	float: left;
+	margin-bottom: 10px;
+}
+#detail_memo h3 {
+	color: #000000;
+	font-size: 1.2em;
+	padding-bottom: 4px;
+	font-weight: bold;
+}
+#detail_memo p {
+	color: #666666;
+	font-size: 1.1em;
+	line-height: 18px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+#p_qty {
+	background-color: #dddddd;
+	border: 0;
+	color: #666666;
+	width: 60px;
+}
+#notificationsLoader {
+	float: right;
+	margin-right: 16px;
+	margin-top: 6px;
+	display: none;
+}
+#detail_hot_tag {
+	width: 180px;
+	margin: 6px 0;
+
+}
+#oops_wrap{
+	/* firefox only*/
+	-moz-border-radius: 6px;
+	/* chrome and safari */
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	width: 900px;
+	position: relative;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	height: 400px;
+	margin-bottom: 16px;
+}
+#oops_wrap #caution_logo{
+	position: absolute;
+	top: 160px;
+	left: 290px;
+}
+#oops_wrap #caution_text{
+	width: 220px;
+	position: relative;
+	font-size: 2.4em;
+	font-weight: bold;
+	color: #666666;
+	margin: 0px auto;
+	top: 170px;
+
+}
+#oops_wrap #caution_logo_2{
+	position: absolute;
+	top: 168px;
+	left: 340px;
+}
+#oops_wrap #caution_text_2{
+	width: 150px;
+	position: relative;
+	font-size: 2.4em;
+	font-weight: bold;
+	color: #666666;
+	margin: 0px auto;
+	top: 170px;
+
+}
+.color_span{
+	float:left;
+	margin:8px 6px 0 0;
+}
+#select_color{
+	float:left;	
+}
+#select_color a{
+	width: 14px;
+	height: 14px;
+	margin: 2px 6px 0 0;
+	display: inline-block;
+	border: 1px solid #999999;
+}
+#select_color a.color_current{
+	width: 22px;
+	height: 22px;
+}
+a#nation_icon{
+	width:30px;
+	height:30px;
+	display: block;
+	float:left;
+}
+#fans_share h4{
+	font-size:1.1em;
+}
+#fans_share {
+	/* firefox only*/
+	-moz-border-radius: 6px;
+	/* chrome and safari */
+	-webkit-border-radius: 6px;
+	border: 1px solid #CCCCCC;
+	margin: 16px 25px 16px 0;
+	float: right;
+	width: 660px;
+	padding: 15px;
+}
+#fans_share .share_item{
+	width: 630px;
+	height:65px;
+	float:left;
+	margin-top:6px;
+	background-color: #FFFFCC;
+}
+#fans_share img{
+	width:50px;
+	height:50px;
+	overflow:hidden;
+	border: 3px solid #FFFFFF;
+	margin: 6px 6px 6px 0;
+	float:left;
+}
+#fans_share a.share_link{
+	float:left;
+	color: #71B0FF;
+	margin: 8px 0;
+	font-weight: normal;
+	font-style: italic;
+}

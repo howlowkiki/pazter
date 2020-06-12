@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.pazter.com$ [NC]
+RewriteRule ^(.*)$ http://pazter.com/$1 [R=301,L]
+rewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+rewriteRule ^index\.php$ http://pazter.com/ [R=301,L]

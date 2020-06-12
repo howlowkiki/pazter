@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?pazter.com [NC]
+RewriteRule \.(jpg|jpeg|png|gif)$ - [NC,F,L]

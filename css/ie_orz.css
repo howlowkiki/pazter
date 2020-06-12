@@ -1,0 +1,23 @@
+#ie6_caution{
+	font-size: 16px;
+	color: #333333;
+	position: absolute;
+	width: 360px;
+	top: 110px;
+	left: 260px;
+	line-height: 19px;
+}
+#ie6_info_logo{
+	position: absolute;
+	top: 110px;
+	left: 210px;
+	
+}
+#browsers_wrap{
+	width: 520px;
+	height: 100px;
+	position: absolute;
+	top: 200px;
+	left: 170px;
+
+}
